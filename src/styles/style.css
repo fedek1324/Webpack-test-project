@@ -1,0 +1,26 @@
+@import '~normalize.css'; 
+@import 'bermuda.css';
+
+body {
+    margin: 0 auto;
+    color: rebeccapurple;
+}
+
+.container {
+    padding-top: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.logo {
+    background-image: url("../assets/front.png");
+    background-size: contain;
+    background-repeat: repeat-x;
+    height: 200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Bermuda LP', Courier, monospace;
+    text-align: center;
+}

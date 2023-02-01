@@ -1,0 +1,2 @@
+!function(){"use strict";var n,t,e;window.analytics=(n=0,t=!1,e=function(){return n++},document.addEventListener("click",e),{destroy:function(){document.removeEventListener("click",e),t=!0},getClicks:function(){return t?"Analytics is destroyed":n}})}();
+//# sourceMappingURL=analytics.d96c3a29603597e1cf4e.js.map
